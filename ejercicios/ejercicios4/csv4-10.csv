@@ -1,0 +1,13 @@
+ip_address,timestamp,method,resource,protocol,status_code,response_size,referrer,user_agent
+192.168.1.10,04/Nov/2022:08:55:29,"GET","/index.html","HTTP/1.1",200,5123,"http://example.com/start","Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+172.16.0.5,04/Nov/2023:09:00:12,"POST","/login","HTTP/1.1",401,2324,"http://example.com/login","Mozilla/5.0 (Linux; Android 9; SM-G960F)"
+192.168.1.11,04/Nov/2023:09:02:45,"GET","/products/123","HTTP/1.1",404,1420,"http://example.com/products","Mozilla/5.0 (Mac OS X 10_15_7)"
+10.0.0.2,04/Nov/2024:09:15:30,"GET","/assets/style.css","HTTP/1.1",200,4532,"http://example.com/home","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:87.0)"
+172.16.0.5,04/Nov/2024:09:17:54,"POST","/checkout","HTTP/1.1",500,987,"http://example.com/cart","Mozilla/5.0 (Android 11; SM-A505F)"
+192.168.1.12,04/Nov/2024:09:25:11,"GET","/blog","HTTP/1.1",200,6789,"http://example.com/","Mozilla/5.0 (iPhone; CPU iPhone OS 14_4)"
+192.168.1.13,04/Nov/2024:09:30:45,"GET","/index.html","HTTP/1.1",304,0,"http://example.com/","Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+10.0.0.3,04/Nov/2024:09:40:29,"GET","/contact","HTTP/1.1",200,4201,"http://example.com/","Mozilla/5.0 (Windows NT 6.1; Trident/7.0)"
+192.168.1.14,04/Dic/2024:09:45:10,"DELETE","/user/45","HTTP/1.1",403,225,"http://example.com/profile","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0)"
+10.0.1.2,04/Dic/2024:09:48:33,"POST","/api/upload","HTTP/2",500,1554,"http://example.com/upload","Mozilla/5.0 (Linux; Android 8.0.0; SM-G950F)"
+192.168.1.15,04/Dic/2024:09:52:20,"GET","/images/logo.png","HTTP/1.1",200,2543,"http://example.com/","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6)"
+172.16.0.6,04/Dic/2024:09:55:02,"PUT","/api/update","HTTP/1.1",201,1820,"http://example.com/admin","Mozilla/5.0 (Windows NT 6.3; WOW64; rv:45.0)"
